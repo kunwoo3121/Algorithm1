@@ -32,22 +32,22 @@ D(k)[i][j] = Min( D(k-1)[i][j],  D(k-1)[i][k] + D(k-1)[k][j] )
 
 위의 방법대로 배열 D를 구해본다.
 
-1) k = 0 
+1) k = 0   
 ![0](https://user-images.githubusercontent.com/28796089/99987701-215dd600-2df4-11eb-8ecf-727fbcab0d55.jpg)
 
-2) k = 1
+2) k = 1  
 ![1](https://user-images.githubusercontent.com/28796089/99987730-29b61100-2df4-11eb-8381-e7a124146f57.jpg)
 
-3) k = 2
+3) k = 2  
 ![2](https://user-images.githubusercontent.com/28796089/99987762-30dd1f00-2df4-11eb-803d-a4dda36ffe33.jpg)
 
-4) k = 3
+4) k = 3  
 ![3](https://user-images.githubusercontent.com/28796089/99987802-389cc380-2df4-11eb-9a82-4d4bce12407a.jpg)
 
-5) k = 4
+5) k = 4  
 ![4](https://user-images.githubusercontent.com/28796089/99987817-3fc3d180-2df4-11eb-94e6-9ea0c7f74062.jpg)
 
-6) k = 5
+6) k = 5  
 ![5](https://user-images.githubusercontent.com/28796089/99987835-45b9b280-2df4-11eb-94e0-1f5e64c49f21.jpg)
 
 k = 5 일때의 D[i][j] 가 vi ~ vj로 가는 최단 경로가 된다.
