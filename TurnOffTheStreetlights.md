@@ -1,4 +1,4 @@
-# Turn-Off-The-Streetlights
+# 가로등 끄기
 
 https://www.acmicpc.net/problem/2315
 
